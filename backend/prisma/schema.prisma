@@ -14,5 +14,6 @@ model Entry {
   id          String   @id @default(uuid())
   title       String
   description String
-  created_at  DateTime
+  created_at   DateTime
+  scheduled_at DateTime
 }
